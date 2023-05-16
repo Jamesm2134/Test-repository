@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class testWork {
 
     
     public static void main(String[] args) 
@@ -41,11 +41,13 @@ public class Main {
         double monthlyHours = total / hourlyWage;
         double weeklyHours = monthlyHours / 4;
         double dailyHours = weeklyHours / 7;
+        double HELPME = Math.round(dailyHours*100)/100;
         double extraMoney = (total + 100) / (10) / (4) / (7);
+        double pernis = Math.round(extraMoney*100)/100;
         // Print out
 
-        System.out.println("The amount of hours per day a " + occupation + " would need to work to break even is " + dailyHours);
-        System.out.println("The amount of hours per day a " + occupation + " would need to work to have an additonal $100 would be " + extraMoney);
+        System.out.println("The amount of hours per day a " + occupation + " would need to work to break even is " + HELPME);
+        System.out.println("The amount of hours per day a " + occupation + " would need to work to have an additonal $100 would be " + pernis);
         System.out.print("***************************************************************************************");
     }
 
