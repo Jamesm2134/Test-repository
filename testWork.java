@@ -17,6 +17,9 @@ public class testWork {
         int hourlywage = 10;
         // Math
 
+        String Charlie = "poop";
+        System.out.print(Charlie);
+
         int total = (rent) + (internet) + (grocery) + (fun);
         double monthlyHours = total / 10;
         double weeklyHours = monthlyHours / 4;
